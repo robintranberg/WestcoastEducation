@@ -6,7 +6,7 @@ public class Person
     public string LastName { get; set; } = "";
     public string PersonalNumber { get; set; } = "";
     public string PhoneNumber { get; set; } = "";
-    public Address Address { get; set; } = new Address();
+    public Address Address { get; set; } = new();
 
     // Villkor och loop
     public bool IsValidPersonalNumber()

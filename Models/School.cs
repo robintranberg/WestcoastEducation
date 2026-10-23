@@ -2,8 +2,8 @@
 
 public class School
 {
-    public List<Course> Courses { get; set; } = new List<Course>();
-    public List<Person> People { get; set; } = new List<Person>();
+    public List<Course> Courses { get; set; } = [];
+    public List<Person> People { get; set; } = [];
 
     public bool AddCourse(Course course)
     {
